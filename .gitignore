@@ -1,0 +1,21 @@
+# Visual Studio local settings
+.vs/
+*.user
+*.suo
+*.cache
+
+# .NET build output
+bin/
+obj/
+
+# Temporary and log files
+*.tmp
+*.log
+
+# Environment files and secrets
+.env
+.env.*
+
+# Operating system files
+Thumbs.db
+.DS_Store
