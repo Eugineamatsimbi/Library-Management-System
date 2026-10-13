@@ -1,81 +1,58 @@
 # Library Management System
 
-## 1. Project Description
+A desktop-based Library Management System developed using VB.NET Windows Forms and MySQL for the Visual Programming course unit project.
 
-The Library Management System is a desktop application developed
-to help manage library books, members, user accounts, borrowing,
-and returns.
+The system is designed to manage books, members, user accounts, borrowing, returns, and library reports.
 
-The system is being developed as a Visual Programming course
-unit project.
+## 1. Project Objectives
 
-## 2. Objectives
-
-- Manage library books and members.
+- Manage library books and their copies.
+- Register and manage library members.
 - Manage authorized system users.
 - Record book borrowing and returns.
 - Search and filter library records.
-- Generate printable or exportable reports.
+- Generate library reports.
 - Protect user accounts and library information.
 
-## 3. Technology Stack
+## 2. Technology Stack
 
 - Programming Language: VB.NET
-- User Interface: Windows Forms
+- Frontend: Windows Forms
+- Backend: VB.NET Class Library
 - Database: MySQL
-- Development Environment: Visual Studio
-- Code Editor: VS Code where appropriate
+- IDE: Visual Studio
+- Code Editor: Visual Studio Code where appropriate
 - Version Control: Git and GitHub
 
-## 4. Planned Architecture
+## 3. Project Structure
 
-The solution will contain:
+```text
+Library-Management-System/
+├── Library Management system.slnx
+├── ReadMe.md
+├── .gitignore
+├── src/
+│   ├── Library Management system/
+│   │   └── Windows Forms application
+│   └── LibraryManagement.Core/
+│       └── Backend business logic
+├── database/
+│   └── MySQL scripts
+├── docs/
+│   └── Project documentation
+└── tests/
+    └── Test files and test documentation
 
-- A Windows Forms user interface project.
-- A backend class library for business logic and data access.
-- A MySQL database.
-- Project documentation and testing materials.
+Contribution Guidelines
 
-The final project structure will be agreed upon before implementation.
+Before working on a task:
 
-## 5. Main Features
+Synchronize your local repository with GitHub.
+Create a branch for your assigned task.
+Make small, focused changes.
+Test your changes.
+Commit your work with a descriptive commit message.
+Push your branch to GitHub.
+Open a pull request for review.
 
-- Login and logout
-- User management
-- Book management
-- Member management
-- Borrowing and returns
-- Search and filtering
-- Reports
-- Input validation and security
-
-## 6. Team Collaboration
-
-The team will use GitHub for version control and collaboration.
-
-Members will work on assigned tasks using feature branches.
-Changes will be reviewed and tested before being integrated.
-
-The main branch will contain stable, reviewed work.
-
-## 7. Project Structure
-
-Planned folders:
-
-- frontend/
-- backend/
-- database/
-- docs/
-
-The exact structure will be established during project setup.
-
-## 8. Security
-
-- Passwords must not be stored as plain text.
-- Database queries must use parameters.
-- Database credentials must not be committed to GitHub.
-- User permissions must be enforced by the application.
-
-## 9. Project Status
-
-Project organization and planning.
+Avoid editing the same files as another team member without coordinating first.
