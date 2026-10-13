@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/database/" />
+  <Folder Name="/docs/" />
+  <Folder Name="/src/">
+    <Project Path="src/LibraryManagement.Core/LibraryManagement.Core.vbproj" Id="616bfe2c-18cb-4de7-91a4-afec0a809e9b" />
+    <Project Path="src/Library Management System/Library Management system.vbproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+</Solution>
